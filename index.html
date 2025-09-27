@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu: El Sistema Operativo Libre - Blog UTP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fab fa-ubuntu"></i>
+                    <span>Ubuntu Blog</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#historia" class="nav-link">Historia</a></li>
+                    <li><a href="#detalles" class="nav-link">Detalles</a></li>
+                    <li><a href="#comparacion" class="nav-link">Comparación</a></li>
+                    <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                    <li><a href="#conclusiones" class="nav-link">Conclusiones</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Ubuntu: El Poder de la Libertad</h1>
+                <p class="hero-subtitle">Descubre uno de los sistemas operativos más populares y accesibles del mundo Linux</p>
+                <div class="hero-buttons">
+                    <a href="#detalles" class="btn btn-primary">Explorar Ubuntu</a>
+                    <a href="#historia" class="btn btn-outline">Conocer Historia</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="ubuntupng.png" 
+                     alt="Logo Ubuntu" 
+                     class="ubuntu-logo" 
+                     onerror="this.src='https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png'; this.onerror=null;">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        
+        <!-- Introducción -->
+        <section class="section intro-section">
+            <div class="container">
+                <h2 class="section-title">Introducción</h2>
+                <div class="intro-content">
+                    <p class="intro-text">
+                        Ubuntu es una distribución GNU/Linux basada en Debian que se destaca por su facilidad de uso, 
+                        estabilidad y enfoque en la accesibilidad. Desarrollado por Canonical Ltd., Ubuntu ha 
+                        democratizado el acceso a los sistemas operativos libres, ofreciendo una alternativa 
+                        robusta y gratuita a los sistemas operativos propietarios.
+                    </p>
+                    <div class="intro-stats">
+                        <div class="stat">
+                            <span class="stat-number">25M+</span>
+                            <span class="stat-label">Usuarios Activos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2004</span>
+                            <span class="stat-label">Año de Lanzamiento</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Gratuito</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia -->
+        <section id="historia" class="section history-section">
+            <div class="container">
+                <h2 class="section-title">Breve Reseña Histórica</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2004 - Los Inicios</h3>
+                            <p>Mark Shuttleworth funda Canonical y anuncia el proyecto Ubuntu, basado en Debian. 
+                            El nombre proviene de la filosofía africana ubuntu que significa "humanidad hacia otros".</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2004 - Primera Versión</h3>
+                            <p>Se lanza Ubuntu 4.10 "Warty Warthog", marcando el inicio de una nueva era 
+                            en los sistemas operativos libres con enfoque en la usabilidad.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2006 - Crecimiento</h3>
+                            <p>Ubuntu se convierte en una de las distribuciones Linux más populares, 
+                            ganando reconocimiento por su facilidad de instalación y uso.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2010-Presente</h3>
+                            <p>Ubuntu evoluciona continuamente, introduciendo nuevas tecnologías como Snap packages, 
+                            soporte para contenedores y enfoque en cloud computing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalles del SO -->
+        <section id="detalles" class="section details-section">
+            <div class="container">
+                <h2 class="section-title">Detalle del Sistema Operativo</h2>
+                
+                <!-- Ubuntu Image -->
+                <div class="ubuntu-showcase">
+                    <div class="showcase-image">
+                        <img src="ubuntupng.png" 
+                             alt="Logo Ubuntu" 
+                             class="ubuntu-main-image"
+                             onerror="this.src='https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png'; this.onerror=null;">
+                        <p class="image-source">
+                            <strong>Figura No. 1.</strong> Logo oficial de Ubuntu<br>
+                            <span>Fuente: Wikimedia Commons (2024), 
+                            <a href="https://commons.wikimedia.org/wiki/File:UbuntuCoF.svg" target="_blank">
+                            https://commons.wikimedia.org/wiki/File:UbuntuCoF.svg</a></span>
+                        </p>
+                    </div>
+                    <div class="showcase-info">
+                        <h3>Características Principales</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Interfaz gráfica intuitiva (GNOME)</li>
+                            <li><i class="fas fa-check"></i> Actualizaciones regulares cada 6 meses</li>
+                            <li><i class="fas fa-check"></i> Soporte LTS (Long Term Support)</li>
+                            <li><i class="fas fa-check"></i> Amplia comunidad de desarrolladores</li>
+                            <li><i class="fas fa-check"></i> Software Center integrado</li>
+                            <li><i class="fas fa-check"></i> Compatibilidad con hardware moderno</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Requerimientos del Sistema -->
+                <div class="requirements-section">
+                    <h3>Requerimientos del Sistema</h3>
+                    <div class="requirements-grid">
+                        <div class="requirement-card">
+                            <i class="fas fa-microchip"></i>
+                            <h4>Procesador</h4>
+                            <p>2 GHz dual core o superior</p>
+                        </div>
+                        <div class="requirement-card">
+                            <i class="fas fa-memory"></i>
+                            <h4>Memoria RAM</h4>
+                            <p>4 GB (recomendado 8 GB)</p>
+                        </div>
+                        <div class="requirement-card">
+                            <i class="fas fa-hdd"></i>
+                            <h4>Almacenamiento</h4>
+                            <p>25 GB de espacio libre</p>
+                        </div>
+                        <div class="requirement-card">
+                            <i class="fas fa-desktop"></i>
+                            <h4>Gráficos</h4>
+                            <p>Resolución 1024x768 o superior</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparación -->
+        <section id="comparacion" class="section comparison-section">
+            <div class="container">
+                <h2 class="section-title">Cuadro Comparativo</h2>
+                <div class="comparison-table-container">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Características</th>
+                                <th class="ubuntu-col">
+                                    <i class="fab fa-ubuntu"></i>
+                                    Ubuntu
+                                </th>
+                                <th class="windows-col">
+                                    <i class="fab fa-windows"></i>
+                                    Windows 11
+                                </th>
+                                <th class="macos-col">
+                                    <i class="fab fa-apple"></i>
+                                    macOS
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Costo</strong></td>
+                                <td class="ubuntu-cell">Gratuito</td>
+                                <td class="windows-cell">$199+</td>
+                                <td class="macos-cell">Incluido con Mac</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Código Fuente</strong></td>
+                                <td class="ubuntu-cell">Abierto</td>
+                                <td class="windows-cell">Cerrado</td>
+                                <td class="macos-cell">Cerrado</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Seguridad</strong></td>
+                                <td class="ubuntu-cell">Muy Alta</td>
+                                <td class="windows-cell">Media</td>
+                                <td class="macos-cell">Alta</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Personalización</strong></td>
+                                <td class="ubuntu-cell">Muy Alta</td>
+                                <td class="windows-cell">Media</td>
+                                <td class="macos-cell">Baja</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rendimiento</strong></td>
+                                <td class="ubuntu-cell">Excelente</td>
+                                <td class="windows-cell">Bueno</td>
+                                <td class="macos-cell">Muy Bueno</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Compatibilidad de Software</strong></td>
+                                <td class="ubuntu-cell">Buena</td>
+                                <td class="windows-cell">Excelente</td>
+                                <td class="macos-cell">Muy Buena</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Ventajas y Desventajas -->
+                <div class="pros-cons-grid">
+                    <div class="pros-cons-card">
+                        <h3><i class="fas fa-thumbs-up"></i> Ventajas de Ubuntu</h3>
+                        <ul>
+                            <li>Completamente gratuito</li>
+                            <li>Altamente seguro</li>
+                            <li>Consumo eficiente de recursos</li>
+                            <li>Gran comunidad de soporte</li>
+                            <li>Actualizaciones regulares</li>
+                            <li>Personalización ilimitada</li>
+                        </ul>
+                    </div>
+                    <div class="pros-cons-card">
+                        <h3><i class="fas fa-thumbs-down"></i> Desventajas de Ubuntu</h3>
+                        <ul>
+                            <li>Curva de aprendizaje para principiantes</li>
+                            <li>Menor compatibilidad con software propietario</li>
+                            <li>Soporte limitado para algunos juegos</li>
+                            <li>Requiere conocimientos técnicos básicos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video y Recursos -->
+        <section id="recursos" class="section resources-section">
+            <div class="container">
+                <h2 class="section-title">Recursos Multimedia</h2>
+                
+                <!-- Video -->
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe 
+                            width="864" 
+                            height="486" 
+                            src="https://www.youtube.com/embed/tdjGchccSws" 
+                            title="🐧 Linux para principiantes - Instala Ubuntu y aprende todo lo que debes saber" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="video-source">
+                        <strong>Video #1.</strong> 🐧 Linux para principiantes - Instala Ubuntu y aprende todo lo que debes saber<br>
+                        <span>Fuente: YouTube (2024), 
+                        <a href="https://www.youtube.com/watch?v=tdjGchccSws" target="_blank">
+                        https://www.youtube.com/watch?v=tdjGchccSws</a></span>
+                    </p>
+                </div>
+
+                <!-- Alternativa de enlace directo al video -->
+                <div class="video-alternative">
+                    <a href="https://www.youtube.com/watch?v=tdjGchccSws" target="_blank" class="video-link-btn">
+                        <i class="fab fa-youtube"></i>
+                        Ver Video en YouTube
+                    </a>
+                </div>
+
+                <!-- Links útiles -->
+                <div class="useful-links">
+                    <h3>Enlaces de Interés</h3>
+                    <div class="links-grid">
+                        <a href="https://ubuntu.com/" target="_blank" class="link-card">
+                            <i class="fas fa-globe"></i>
+                            <span>Sitio Oficial Ubuntu</span>
+                        </a>
+                        <a href="https://help.ubuntu.com/" target="_blank" class="link-card">
+                            <i class="fas fa-book"></i>
+                            <span>Documentación</span>
+                        </a>
+                        <a href="https://discourse.ubuntu.com/" target="_blank" class="link-card">
+                            <i class="fas fa-comments"></i>
+                            <span>Foro Comunidad</span>
+                        </a>
+                        <a href="https://launchpad.net/ubuntu/" target="_blank" class="link-card">
+                            <i class="fas fa-code"></i>
+                            <span>Desarrollo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusiones -->
+        <section id="conclusiones" class="section conclusions-section">
+            <div class="container">
+                <h2 class="section-title">Conclusiones</h2>
+                <div class="conclusions-content">
+                    <div class="conclusion-item">
+                        <div class="conclusion-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="conclusion-text">
+                            <h4>Accesibilidad y Libertad</h4>
+                            <p>Ubuntu democratiza el acceso a tecnología de calidad, ofreciendo un sistema operativo 
+                            robusto y gratuito que rompe las barreras económicas del software propietario.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="conclusion-item">
+                        <div class="conclusion-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="conclusion-text">
+                            <h4>Seguridad y Estabilidad</h4>
+                            <p>La arquitectura basada en Linux y su modelo de permisos proporcionan un nivel de 
+                            seguridad superior, reduciendo significativamente los riesgos de malware y ataques.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="conclusion-item">
+                        <div class="conclusion-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="conclusion-text">
+                            <h4>Comunidad y Soporte</h4>
+                            <p>La extensa comunidad de Ubuntu proporciona soporte continuo, documentación actualizada 
+                            y una plataforma colaborativa para el desarrollo y mejoramiento constante.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="conclusion-item">
+                        <div class="conclusion-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="conclusion-text">
+                            <h4>Innovación Constante</h4>
+                            <p>Ubuntu se mantiene a la vanguardia tecnológica, adaptándose a las nuevas tendencias 
+                            como cloud computing, contenedores y desarrollo moderno.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referencias -->
+        <section class="section references-section">
+            <div class="container">
+                <h2 class="section-title">Referencias Bibliográficas</h2>
+                <div class="references-content">
+                    <div class="reference-item">
+                        <p>Canonical Ltd. (2024). <em>Ubuntu Official Website</em>. https://ubuntu.com/</p>
+                    </div>
+                    <div class="reference-item">
+                        <p>Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). <em>Operating System Concepts</em> (10th ed.). John Wiley & Sons.</p>
+                    </div>
+                    <div class="reference-item">
+                        <p>Tanenbaum, A. S., & Bos, H. (2014). <em>Modern Operating Systems</em> (4th ed.). Pearson Education.</p>
+                    </div>
+                    <div class="reference-item">
+                        <p>Ubuntu Community. (2024). <em>Ubuntu Documentation</em>. https://help.ubuntu.com/</p>
+                    </div>
+                    <div class="reference-item">
+                        <p>Wikimedia Commons. (2024). <em>Ubuntu Circle of Friends Logo</em>. https://commons.wikimedia.org/wiki/File:UbuntuCoF.svg</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="team-info">
+                    <h3>Información del Equipo</h3>
+                    <div class="team-members">
+                        <div class="member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                                <img src="julio.jpg" alt="Julio Lara" class="member-photo" onload="this.previousElementSibling.style.display='none';" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                            </div>
+                            <div class="member-info">
+                                <h4>Julio Lara</h4>
+                                <p>8-997-2325</p>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                                <img src="joseph.jpg" alt="Joseph Batista" class="member-photo" onload="this.previousElementSibling.style.display='none';" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                            </div>
+                            <div class="member-info">
+                                <h4>Joseph Batista</h4>
+                                <p>8-1009-2325</p>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                                <img src="alex.jpg" alt="Alex Alvarado" class="member-photo" onload="this.previousElementSibling.style.display='none';" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                            </div>
+                            <div class="member-info">
+                                <h4>Alex Alvarado</h4>
+                                <p>8-998-934</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="academic-info">
+                    <h3>Información Académica</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span><strong>Profesor:</strong> Isaac Esquivel</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-university"></i>
+                            <span><strong>Institución:</strong> Universidad Tecnológica de Panamá</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-building"></i>
+                            <span><strong>Facultad:</strong> Ingeniería de Sistemas Computacionales</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span><strong>Departamento:</strong> Arquitectura y Redes de Computadoras</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span><strong>Asignatura:</strong> Sistemas Operativos</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span><strong>Grupo:</strong> Grupo 4 - 1IL142</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Blog Ubuntu - UTP. Proyecto de Sistemas Operativos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
