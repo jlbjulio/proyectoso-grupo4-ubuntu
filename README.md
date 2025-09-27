@@ -1,8 +1,8 @@
-# Ubuntu: El Sistema Operativo Libre - Blog Académico
+# Ubuntu: The Free Operating System - Academic Blog
 
-Este proyecto es un blog web completo sobre Ubuntu Linux, desarrollado como parte de un proyecto académico de la Universidad Tecnológica de Panamá. El blog proporciona una exploración exhaustiva de Ubuntu, incluyendo su historia, características técnicas, comparaciones con otros sistemas operativos, y recursos educativos.
+This project is a comprehensive web blog about Ubuntu Linux, developed as part of an academic project at Universidad Tecnológica de Panamá. The blog provides an exhaustive exploration of Ubuntu, including its history, technical features, comparisons with other operating systems, and educational resources.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 - HTML5  
 - CSS3  
@@ -11,103 +11,80 @@ Este proyecto es un blog web completo sobre Ubuntu Linux, desarrollado como part
 - Google Fonts (Inter)  
 - YouTube iframe embedding
 
-## Características Principales
+## Main Features
 
-- **Navegación Fluida**:
-  - Menú responsivo con navegación nativa del navegador  
-  - Diseño mobile-first con menú hamburguesa  
-  - Enlaces de navegación funcionales entre secciones
+- **Smooth Navigation**:
+  - Responsive menu with native browser navigation  
+  - Mobile-first design with hamburger menu  
+  - Functional navigation links between sections
 
-- **Contenido Académico Completo**:
-  - Introducción detallada sobre Ubuntu  
-  - Línea de tiempo histórica interactiva  
-  - Análisis técnico del sistema operativo  
-  - Tabla comparativa con otros sistemas operativos  
-  - Video ilustrativo integrado de YouTube  
-  - Conclusiones y referencias bibliográficas en formato APA
+- **Complete Academic Content**:
+  - Detailed introduction about Ubuntu  
+  - Interactive historical timeline  
+  - Technical analysis of the operating system  
+  - Comparative table with other operating systems  
+  - Integrated YouTube educational video  
+  - Conclusions and bibliographic references in APA format
 
-- **Diseño Visual Atractivo**:
-  - Esquema de colores oficial de Ubuntu (naranja #E95420 y morado #772953)  
-  - Efectos de gradiente y animaciones CSS  
-  - Tarjetas interactivas con efectos hover  
-  - Diseño completamente responsivo  
-  - Iconografía consistente con FontAwesome
+- **Attractive Visual Design**:
+  - Official Ubuntu color scheme (orange #E95420 and purple #772953)  
+  - Gradient effects and CSS animations  
+  - Interactive cards with hover effects  
+  - Fully responsive design  
+  - Consistent iconography with FontAwesome
 
-- **Información del Equipo**:
-  - Sección dedicada con fotos de los miembros del equipo  
-  - Información académica completa  
-  - Detalles del curso y facultad
+- **Team Information**:
+  - Dedicated section with team member photos  
+  - Complete academic information  
+  - Course and faculty details
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 ProyectoSO/
-├── index.html          # Estructura principal del blog
-├── style.css           # Estilos y diseño responsivo
-├── script.js           # Funcionalidad interactiva (navegación nativa)
-├── ubuntupng.png      # Logo de Ubuntu
-├── julio.jpg          # Foto del miembro del equipo
-├── joseph.jpg         # Foto del miembro del equipo
-├── alex.jpg           # Foto del miembro del equipo
-└── README.md          # Documentación del proyecto
+├── index.html          # Main blog structure
+├── style.css           # Styles and responsive design
+├── script.js           # Interactive functionality (native navigation)
+├── ubuntupng.png      # Ubuntu logo
+├── julio.jpg          # Team member photo
+├── joseph.jpg         # Team member photo
+├── alex.jpg           # Team member photo
+└── README.md          # Project documentation
 ```
 
-## Secciones del Blog
+## Blog Sections
 
-1. **Inicio**: Página de bienvenida con hero section  
-2. **Historia**: Línea de tiempo del desarrollo de Ubuntu  
-3. **Detalles**: Características técnicas y especificaciones  
-4. **Comparación**: Tabla comparativa con Windows, macOS y otras distribuciones Linux  
-5. **Recursos**: Video educativo y enlaces útiles  
-6. **Conclusiones**: Análisis final y referencias bibliográficas
+1. **Home**: Welcome page with hero section  
+2. **History**: Timeline of Ubuntu development  
+3. **Details**: Technical features and specifications  
+4. **Comparison**: Comparative table with Windows, macOS and other Linux distributions  
+5. **Resources**: Educational video and useful links  
+6. **Conclusions**: Final analysis and bibliographic references
 
-## Cómo Usar
+## How to Use
 
-1. Abrir el archivo `index.html` en cualquier navegador moderno.  
-2. Navegar entre las secciones usando el menú superior.  
-3. En dispositivos móviles, usar el menú hamburguesa para la navegación.  
-4. Explorar el contenido interactivo como la línea de tiempo y las tarjetas.  
-5. Ver el video integrado para una experiencia multimedia completa.
+1. Open the `index.html` file in any modern browser.  
+2. Navigate between sections using the top menu.  
+3. On mobile devices, use the hamburger menu for navigation.  
+4. Explore interactive content like the timeline and cards.  
+5. Watch the integrated video for a complete multimedia experience.
 
-## Consideraciones Técnicas
+## Technical Considerations
 
-- El sitio es completamente responsivo y funciona en todos los dispositivos  
-- Las imágenes incluyen fallbacks con iconos FontAwesome  
-- El video de YouTube se carga de forma optimizada  
-- La navegación utiliza el comportamiento nativo del navegador para mayor confiabilidad  
-- Todos los estilos están organizados con variables CSS para fácil mantenimiento
+- The site is fully responsive and works on all devices  
+- Images include fallbacks with FontAwesome icons  
+- YouTube video loads in an optimized way  
+- Navigation uses native browser behavior for greater reliability  
+- All styles are organized with CSS variables for easy maintenance
 
-## Características de Accesibilidad
+## Accessibility Features
 
-- Texto con contraste adecuado  
-- Navegación por teclado funcional  
-- Imágenes con texto alternativo  
-- Estructura semántica HTML5  
-- Responsive design para todos los tamaños de pantalla
-
-## Posibles Mejoras
-
-- Añadir más animaciones e interactividad  
-- Implementar modo oscuro/claro  
-- Agregar más contenido multimedia  
-- Incluir comentarios o sistema de feedback  
-- Optimizar para SEO con meta tags adicionales
-
-## Información Académica
-
-**Institución**: Universidad Tecnológica de Panamá (UTP)  
-**Facultad**: Ingeniería de Sistemas Computacionales  
-**Departamento**: Arquitectura y Redes de Computadoras  
-**Asignatura**: Sistemas Operativos  
-**Grupo**: Grupo 4 - 1IL142  
-**Profesor**: Isaac Esquivel  
-
-## Equipo de Desarrollo
-
-- **Julio Lara** - 8-997-2325  
-- **Joseph Batista** - 8-1009-2325  
-- **Alex Alvarado** - 8-998-934  
+- Text with adequate contrast  
+- Functional keyboard navigation  
+- Images with alternative text  
+- Semantic HTML5 structure  
+- Responsive design for all screen sizes
 
 ---
 
-> **Nota**: Este proyecto fue desarrollado completamente en español como parte de los requerimientos académicos. El README incluye documentación técnica para propósitos de desarrollo y mantenimiento.
+> **Note**: This project was developed entirely in Spanish as part of academic requirements. The README includes technical documentation for development and maintenance purposes.
