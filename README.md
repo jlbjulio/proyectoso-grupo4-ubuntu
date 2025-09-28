@@ -2,6 +2,8 @@
 
 This project is a comprehensive web blog about Ubuntu Linux, developed as part of an academic project at Universidad Tecnológica de Panamá. The blog provides an exhaustive exploration of Ubuntu, including its history, technical features, comparisons with other operating systems, and educational resources.
 
+https://jlbjulio.github.io/proyectoso-grupo4-ubuntu/
+
 ## Technologies Used
 
 - HTML5  
