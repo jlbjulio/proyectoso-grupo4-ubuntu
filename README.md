@@ -9,7 +9,7 @@ https://jlbjulio.github.io/proyectoso-grupo4-ubuntu/
 - HTML5  
 - CSS3  
 - JavaScript
-- 
+  
 ## Main Features
 
 - **Smooth Navigation**:
