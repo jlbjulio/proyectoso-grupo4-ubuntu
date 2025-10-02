@@ -8,11 +8,8 @@ https://jlbjulio.github.io/proyectoso-grupo4-ubuntu/
 
 - HTML5  
 - CSS3  
-- JavaScript (vanilla)  
-- FontAwesome Icons v6.0.0  
-- Google Fonts (Inter)  
-- YouTube iframe embedding
-
+- JavaScript
+- 
 ## Main Features
 
 - **Smooth Navigation**:
@@ -71,21 +68,6 @@ ProyectoSO/
 4. Explore interactive content like the timeline and cards.  
 5. Watch the integrated video for a complete multimedia experience.
 
-## Technical Considerations
-
-- The site is fully responsive and works on all devices  
-- Images include fallbacks with FontAwesome icons  
-- YouTube video loads in an optimized way  
-- Navigation uses native browser behavior for greater reliability  
-- All styles are organized with CSS variables for easy maintenance
-
-## Accessibility Features
-
-- Text with adequate contrast  
-- Functional keyboard navigation  
-- Images with alternative text  
-- Semantic HTML5 structure  
-- Responsive design for all screen sizes
 
 ---
 
